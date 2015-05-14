@@ -168,24 +168,24 @@
 }
 
 GtkIconView.content-view.cell.check {
-    -gtk-icon-source: url("assets/grid-selection-unchecked.svg");
+    -gtk-icon-source: -gtk-scaled(url("assets/grid-selection-unchecked.png"),url("assets/grid-selection-unchecked@2.png"));
 }
 
 GtkIconView.content-view.cell.check:checked {
-    -gtk-icon-source: url("assets/grid-selection-checked.svg");
+    -gtk-icon-source: -gtk-scaled(url("assets/grid-selection-checked.png"),url("assets/grid-selection-checked@2.png"));
 }
 
 /******************
  * pane separator *
  ******************/
 .pane-separator.horizontal {
-    background-image: url("assets/pane-handle.svg");
+    background-image: -gtk-scaled(url("assets/pane-handle.png"),url("assets/pane-handle@2.png"));
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .pane-separator.vertical {
-    background-image: url("assets/pane-handle-vertical.svg");
+    background-image: -gtk-scaled(url("assets/pane-handle-vertical.png"),url("assets/pane-handle-vertical@2.png"));
     background-repeat: no-repeat;
     background-position: center center;
 }
